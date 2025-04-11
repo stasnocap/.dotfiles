@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define the folders
-STOW_FOLDERS="bin,i3,nvim,tmux,zsh,xkb"
+STOW_FOLDERS="bin,i3,nvim,tmux,zsh"
 
 # Convert comma-separated string into an array
 IFS=',' read -ra FOLDERS <<< "$STOW_FOLDERS"
