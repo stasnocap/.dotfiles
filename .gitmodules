@@ -1,0 +1,6 @@
+[submodule "xkb"]
+	path = xkb
+	url = https://github.com/stasnocap/BigBagKbdTrixXKB
+[submodule "nvim/.config/nvim"]
+	path = nvim/.config/nvim
+	url = https://github.com/stasnocap/config.nvim
