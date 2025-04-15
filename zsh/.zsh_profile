@@ -4,6 +4,7 @@ source /usr/share/doc/fzf/examples/completion.zsh
 export DOTFILES="$HOME/.dotfiles"
 export STOW_FOLDERS="bin,i3,nvim,tmux,zsh"
 export PATH="$HOME/.local/scripts:$PATH"
+export PATH="$HOME/.dotnet/tools:$PATH"
 
 bindkey -s ^f "tmux-sessionizer\n"
 bindkey '^H' backward-kill-word
