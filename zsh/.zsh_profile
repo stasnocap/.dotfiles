@@ -6,6 +6,8 @@ export STOW_FOLDERS="bin,i3,nvim,tmux,zsh"
 export PATH="$HOME/.local/scripts:$PATH"
 export PATH="$HOME/.dotnet/tools:$PATH"
 
+export FZF_DEFAULT_OPTS="--bind=tab:accept"
+
 bindkey -s ^f "tmux-sessionizer\n"
 bindkey '^H' backward-kill-word
 
